@@ -1,16 +1,114 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website showcasing my **projects, technical skills, education, experience, and developer profiles**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive design for desktop, tablet, and mobile
+* Modern dark-themed UI with purple accents
+* Smooth section navigation
+* Interactive skills section
+* Experience timeline
+* Project showcase with detailed project modals
+* GitHub and live project links
+* Resume/CV access
+* Social and developer profile links
+* Responsive mobile navigation
+* Subtle animations and hover effects
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React.js
+* **Styling:** Tailwind CSS
+* **Icons:** React Icons
+* **Animations:** React Parallax Tilt
+* **Build Tool:** Vite
 
-## Expanding the ESLint configuration
+## Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* About
+* Skills
+* Experience
+* Projects
+* Education
+* Contact
+* Footer
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/swatishaw1/portfolio.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd portfolio
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── About/
+│   │   ├── Contact/
+│   │   ├── Education/
+│   │   ├── Experience/
+│   │   ├── Footer/
+│   │   ├── Navbar/
+│   │   ├── Projects/
+│   │   └── Skills/
+│   ├── App.jsx
+│   ├── constants.js
+│   └── index.css
+├── package.json
+└── README.md
+```
+
+## Contact
+
+**Swati Shaw**
+
+* **GitHub:** [https://github.com/swatishaw1](https://github.com/swatishaw1)
+* **LinkedIn:** [https://www.linkedin.com/in/swati-shaw-dev/](https://www.linkedin.com/in/swati-shaw-dev/)
+* **Email:** [swatishaw104@gmail.com](mailto:swatishaw104@gmail.com)
+
+## License
+
+This project is created for personal portfolio and demonstration purposes.
