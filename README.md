@@ -101,13 +101,6 @@ portfolio/
 └── README.md
 ```
 
-## Contact
-
-**Swati Shaw**
-
-* **GitHub:** [https://github.com/swatishaw1](https://github.com/swatishaw1)
-* **LinkedIn:** [https://www.linkedin.com/in/swati-shaw-dev/](https://www.linkedin.com/in/swati-shaw-dev/)
-* **Email:** [swatishaw104@gmail.com](mailto:swatishaw104@gmail.com)
 
 ## License
 
