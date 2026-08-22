@@ -141,9 +141,9 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Multi-Tenant Authentication & Authorization System",
+    title: "Multi-Tenant Authentication System",
     description:
-      "A secure multi-tenant authentication and authorization system built with Spring Boot and React.js. The system supports tenant-aware authentication, JWT-based security, refresh token rotation, OAuth2 login, role-based access control, and secure cookie-based authentication. It also provides tenant and user management APIs with pagination and filtering using Spring Data JPA and Hibernate.",
+      "A secure multi-tenant authentication system built with Spring Boot and React.js, featuring JWT, OAuth2, RBAC, refresh-token rotation, and tenant-aware access control.",
     image: multitenantLogo,
     tags: [
       "Java",
@@ -163,7 +163,7 @@ export const projects = [
     id: 1,
     title: "DropBG - AI Background Remover",
     description:
-      "A full-stack AI-powered image background removal application built with React.js and Spring Boot. Users can securely upload images and remove their backgrounds through an external image-processing API. The backend handles authentication, user management, credit tracking, image processing requests, and secure communication with third-party services.",
+      "A full-stack AI image background remover built with React.js and Spring Boot, featuring secure authentication, image processing, credit tracking, and REST APIs.",
     image: dropbgLogo,
     tags: [
       "React.js",
@@ -177,14 +177,15 @@ export const projects = [
       "AI API",
     ],
     github: "https://github.com/swatishaw1/DropBG",
-    webapp: "https://drive.google.com/file/d/1TjgrmTm39unoY1HEZNavkuby_8SF83n-/view",
+    webapp:
+      "https://drive.google.com/file/d/1TjgrmTm39unoY1HEZNavkuby_8SF83n-/view",
   },
 
   {
     id: 2,
     title: "Email Writer AI - Chrome Extension",
     description:
-      "An AI-powered Chrome extension that helps users write professional emails faster. It generates, improves, and rewrites email content based on user-provided context and tone, reducing the time required to compose professional messages. The extension integrates an AI API with a simple and intuitive interface directly inside the browser.",
+      "An AI-powered Chrome extension that generates, improves, and rewrites professional emails using user-provided context and tone.",
     image: emailWriterLogo,
     tags: [
       "JavaScript",
@@ -197,6 +198,7 @@ export const projects = [
       "CSS",
     ],
     github: "https://github.com/swatishaw1/Email-Writer-Ai",
-    webapp: "https://drive.google.com/file/d/1e7uYdv4-5jmPrHoYp9bQpgvI_E6vgtyv/view",
+    webapp:
+      "https://drive.google.com/file/d/1e7uYdv4-5jmPrHoYp9bQpgvI_E6vgtyv/view",
   },
 ];

@@ -13,7 +13,10 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="scroll-mt-20 py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative">
+    <section
+      id="projects"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+    >
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
@@ -79,7 +82,7 @@ const Projects = () => {
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                  className="lg:w-[75%] w-[90%] object-contain rounded-xl shadow-2xl"
                 />
               </div>
               <div className="lg:p-8 p-6">
@@ -109,13 +112,24 @@ const Projects = () => {
                     View Code
                   </a>
                   <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                  >
-                    View Live
-                  </a>
+                  href={selectedProject.webapp || "#"}
+                  target={selectedProject.webapp ? "_blank" : undefined}
+                  rel={selectedProject.webapp ? "noopener noreferrer" : undefined}
+                  onClick={(e) => {
+                    if (!selectedProject.webapp) e.preventDefault();
+                  }}
+                  className={`w-1/2 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center ${
+                    selectedProject.webapp
+                      ? "bg-purple-600 hover:bg-purple-800 text-white cursor-pointer"
+                      : "bg-gray-800 text-gray-600 border border-gray-700 cursor-not-allowed"
+                  }`}
+                >
+                  {!selectedProject.webapp
+                    ? "Not Live Yet"
+                    : selectedProject.webapp.includes("drive.google.com")
+                    ? "View Live Demo Video"
+                    : "View Live"}
+                </a>
                 </div>
               </div>
             </div>

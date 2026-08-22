@@ -1760,6 +1760,12 @@ html {
     transform: none;
   }
 }
+
+@media (max-width: 639px) {
+  .timeline-circle {
+    display: none;
+  }
+}
 @keyframes Toastify__bounceOutLeft {
   20% {
     opacity: 1;
