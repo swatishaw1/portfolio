@@ -190,7 +190,7 @@ export const projects = [
       "JavaScript",
       "Chrome Extension",
       "React.js",
-      "AI API",
+      "Gemini API",
       "REST API",
       "Spring Boot",
       "HTML",
