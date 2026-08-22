@@ -39,9 +39,7 @@ const Experience = () => {
 
             {/* Content Section */}
             <div
-              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]
-  ${index % 2 === 0 ? "sm:mr-[40px]" : "sm:ml-[40px]"}
-  ml-8 transform transition-transform duration-300 hover:scale-105`}
+              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${index % 2 === 0 ? "sm:mr-[40px]" : "sm:ml-[40px]"} ml-8 transform transition-transform duration-300 hover:scale-105`}
             >
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
@@ -71,9 +69,12 @@ const Experience = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-400 whitespace-pre-line">
-                {experience.desc}
-              </p>
+              <div className="mt-6 text-gray-400"> {experience.desc.map((point, index) => ( 
+                  <p key={index} className="mb-4 leading-7">
+                    • {point}
+                  </p>
+                ))}
+              </div>
               <div className="mt-4">
                 <h5 className="font-medium text-white">Skills:</h5>
                 <ul className="flex flex-wrap mt-2">

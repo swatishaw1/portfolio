@@ -85,26 +85,33 @@ export const SkillsInfo = [
 
 export const experiences = [
   {
-    id: 0,
-    img: eRevmaxLogo,
-    role: "Summer Intern",
-    company: "eRevMax - RateTiger Hotel Channel Manager, Kolkata, India",
-    date: "May 2026 - July 2026",
-    desc: "• Enhanced an existing Customer Portal prototype by developing 20+ REST APIs for hotel management workflows using Spring Boot and Spring Security.\n• Implemented JWT authentication, RBAC, and OAuth2, with role-based authorization across 10+ secured endpoints.\n• Implemented refresh-token rotation to strengthen session security and protect authenticated resources.\n• Refactored backend components into a layered architecture with reusable service components, improving code organization and maintainability.",
-    skills: [
-      "CSS",
-      "React JS",
-      "Spring Boot",
-      "MySQL",
-      "Spring Security",
-      "JWT",
-      "OAuth2",
-      "RBAC",
-      "RESTful APIs",
-      "Postman",
-      "Spring Data JPA",
-    ],
-  },
+  id: 0,
+  img: eRevmaxLogo,
+  role: "Summer Intern",
+  company: "eRevMax - RateTiger Hotel Channel Manager, Kolkata, India",
+  date: "May 2026 - July 2026",
+
+  desc: [
+  "Enhanced an existing Customer Portal prototype by developing 20+ REST APIs for hotel management workflows using Spring Boot and Spring Security.",
+  "Implemented JWT authentication, RBAC, and OAuth2, with role-based authorization across 10+ secured endpoints.",
+  "Implemented refresh-token rotation to strengthen session security and protect authenticated resources.",
+  "Refactored backend components into a layered architecture with reusable service components, improving code organization and maintainability.",
+],
+
+  skills: [
+    "CSS",
+    "React JS",
+    "Spring Boot",
+    "MySQL",
+    "Spring Security",
+    "JWT",
+    "OAuth2",
+    "RBAC",
+    "RESTful APIs",
+    "Postman",
+    "Spring Data JPA",
+  ],
+}
 ];
 
 export const education = [
