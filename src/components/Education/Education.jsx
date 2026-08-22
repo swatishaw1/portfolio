@@ -18,15 +18,11 @@ const Education = () => {
       {/* Education Timeline */}
       <div className="relative">
         {/* Vertical line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        <div className="absolute left-1/2 -translate-x-1/2 top-0 w-1 h-full bg-white z-0"></div>
 
         {/* Education Entries */}
         {education.map((edu, index) => (
           <div key={edu.id} className={`flex flex-col sm:flex-row items-center mb-16 ${ index % 2 === 0 ? "sm:justify-start" : "sm:justify-end"}`}>
-            {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
-              <img src={edu.img} alt={edu.school} className="w-full h-full object-cover rounded-full"/>
-            </div>
 
             {/* Content Section */}
             <div
