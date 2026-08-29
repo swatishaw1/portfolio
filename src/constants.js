@@ -163,7 +163,7 @@ export const projects = [
       "JPA",
       "Hibernate",
     ],
-    github: "https://github.com/swatishaw1/Multitenant_Auth_System",
+    github: "https://github.com/swatishaw1/Auth_System",
   },
 
   {
