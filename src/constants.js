@@ -148,9 +148,9 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Multi-Tenant Authentication System",
+    title: "Authentication System",
     description:
-      "A secure multi-tenant authentication system built with Spring Boot and React.js, featuring JWT, OAuth2, RBAC, refresh-token rotation, and tenant-aware access control.",
+      "A secure authentication system built with Spring Boot and React.js, featuring JWT, OAuth2, refresh-token rotation and Otp based password creation.",
     image: multitenantLogo,
     tags: [
       "Java",
