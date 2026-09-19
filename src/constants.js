@@ -180,8 +180,6 @@ export const projects = [
       "Clerk",
       "REST API",
       "MySQL",
-      "Feign Client",
-      "AI API",
     ],
     github: "https://github.com/swatishaw1/DropBG",
     webapp:
